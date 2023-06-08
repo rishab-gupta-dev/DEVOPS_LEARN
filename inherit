@@ -1,0 +1,43 @@
+package com.js;
+
+class Gp{
+	public float s;
+	
+
+	public float gp(float s) {
+		this.s =s;
+		System.out.println("Property " +s);
+		return s;
+	}
+}
+class Pr extends Gp{
+	public void pr() {
+		float j= super.s/3;
+		
+		System.out.println("Property to first " +j);
+		super.s= j;
+//		this.s = j;
+		System.out.println("Updated value of s    " + super.s);
+	}
+}
+class Pr2 extends Gp{
+	public void pr2( ) {
+		float x = super.s;
+		System.out.println("Property to second parent " + x);
+	}
+}
+public class Ihb {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Pr ob1 = new Pr();
+		ob1.gp(1000);
+		ob1.pr();
+		
+		Pr2 ob2 = new Pr2();
+		ob2.pr2();
+
+	}
+
+}
+
