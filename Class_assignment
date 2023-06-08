@@ -1,0 +1,60 @@
+1.	Differences between Abstraction and encapsulations in java
+Abstraction Refers to a process where we hide unnecessary implementation.  Complete abstraction can be achieved by using interface. Encapsulation means to prevent the access of data from outside of class. Complete encapsulation can be achieved with the help of private keyword. 
+
+2. Write java code to show IS-A relation
+
+package com.js;
+
+
+class Vehicle {
+	private String ds;
+public  String getDs() {
+		return this.ds + " Driving Speed";
+	}
+	public  void setDs(String ds) {
+		this.ds = ds;
+	}
+public void drive() {
+   System.out.println("Driving...");
+}
+}
+
+
+class Car extends Vehicle {
+public void honk() {
+   System.out.println("Honking...");
+}
+}
+
+
+class Motorcycle extends Vehicle {
+public void stunt() {
+   System.out.println("Doing a wheelie...");
+}
+}
+
+
+public class Is_a {
+public static void main(String[] args) {
+
+   Vehicle v1 = new Car();
+   v1.drive();
+   v1.setDs("Sixty");
+   System.out.println(v1.getDs());
+   Motorcycle motorcycle = new Motorcycle();
+   Vehicle vehicleTwo = motorcycle;
+   vehicleTwo.drive(); 
+}
+}
+
+
+
+3. Write java code to show the relation between Car and owner or customer and bank manager
+
+
+
+4. How does JVM works differently with JIT compiler and Interpreter expain with a simple code
+
+5. Can main method be overloaded if no then why?
+6. differences between encapsulation and data hiding
+
