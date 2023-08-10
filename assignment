@@ -3,3 +3,18 @@ Design a Lift system in your programming language?
 An elevator is a combination of at least two elevators, one going up and another coming down.
 
 ● The goal is to minimize the waiting time of the user. Make sure you how your design will evolve if a lift is installed on high-rise buildings over 20 floors. How many lifts do you need to serve 40 floors with a waiting time of no less than 30 seconds on average. Think about the parking strategy of your lift, i.e., which floor they should be resting on or should they keep going up or down 
+
+
+Problem 5: How do you Design a Library Management System in Java or your favorite programming language?
+
+This is another interesting problem to test your object oriented design skill, in this problem you need to design a library management system which should allow you to
+
+1. Add new book,
+
+2. Rent or issue a book to readers
+
+3. Send reminders when due date is near
+
+4. and also print a report of overdue books.
+
+5. It should also provide search functionality so that readers can find books easily.
