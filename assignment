@@ -1,3 +1,5 @@
+
+Design a Lift system in your programming language? 
 An elevator is a combination of at least two elevators, one going up and another coming down.
 
 ● The goal is to minimize the waiting time of the user. Make sure you how your design will evolve if a lift is installed on high-rise buildings over 20 floors. How many lifts do you need to serve 40 floors with a waiting time of no less than 30 seconds on average. Think about the parking strategy of your lift, i.e., which floor they should be resting on or should they keep going up or down 
